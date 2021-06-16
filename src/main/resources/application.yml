@@ -11,7 +11,7 @@ spring:  datasource:    driver-class-name: org.postgresql.Driver
     hibernate:      ddl-auto: none
       
 application:
-  description: Projeto criado para o bootcamp DIO - Santander
+  description: Projeto criado para o bootcamp DIO - Santander / Backend.
      
   
   
