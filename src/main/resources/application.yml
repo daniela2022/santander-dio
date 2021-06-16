@@ -3,11 +3,11 @@ server:
   servlet:    context-path: /bootcamp
     
 spring:  datasource:    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: 1234567  jpa:    show-sql: true
+    url: postgres://jageoundjxqqyj:f669f77a4c4a5822fd64006066c9dbc54b19fea8058607b51d8f0e9987f28f75@ec2-34-232-191-133.compute-1.amazonaws.com:5432/d1vnvl026k4usq
+    username: jageoundjxqqyj
+    password: f669f77a4c4a5822fd64006066c9dbc54b19fea8058607b51d8f0e9987f28f75  jpa:    show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect 
-    generate-ddl: false
+    generate-ddl: true
     hibernate:      ddl-auto: none
       
 application:
